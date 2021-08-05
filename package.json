@@ -1,0 +1,12 @@
+{
+    "name": "Roy'sPortfolio",
+    "version": "1.0.0",
+    "description": "Portfolio for Bosun Roy-Layinde",
+    "scripts": {
+      "start": "serve"
+    },
+    "dependencies": {
+      "serve": "^10.0.1"
+    },
+    "author": "Roy Bosun"
+  }
