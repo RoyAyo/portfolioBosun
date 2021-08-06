@@ -548,6 +548,33 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
+
+.photo-list{
+  display: flex;
+  justify-content: center;
+}
+
+.photo-list img{
+  width: 900px;
+  height: 500px;
+}
+
+.photo-list2 img{
+  width: 400px;
+  height: 500px;
+}
+
+@media(max-width : 900px){
+  .photo-list img{
+    width: 100%;
+    height: 250px;
+  }
+  .photo-list2 img{
+    width: 250px;
+    height: 300px;
+  }
+}
+
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
@@ -10089,8 +10116,8 @@ p.lead {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  height: 3.5rem;
-  width: 3.5rem;
+  height: 2.8rem;
+  width: 2.8rem;
   background-color: #495057;
   color: #fff;
   border-radius: 100%;
